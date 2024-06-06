@@ -2,5 +2,3 @@ streamlit
 streamlit_drawable_canvas
 pandas
 datetime
-PIL
-
