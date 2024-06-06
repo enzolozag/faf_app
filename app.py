@@ -15,10 +15,12 @@ st.set_page_config(
 # TITULOS
 st.title('Hello :rainbow[fella]')
 st.markdown('Yes, heteros and cis are still _unfortunately_ welcome')
+st.text('PD: this month u r lgbt+ too')
 
 st.logo('tu_imagen.jpg',link=None)
 
 # VIDEO
+st.subheader("You're very welcome for the next piece of art.",divider='rainbow')
 video = open('SAOKO.mp4', 'rb')
 video_bytes = video.read()
 st.video(video_bytes, loop=True, autoplay=True)
